@@ -51,7 +51,13 @@ export default {
       '@nuxtjs/firebase',
       {
         config: {
-            //add your firebase project config here
+          apiKey: 'AIzaSyDDhUxUmaEFH07MU1Rdjxvzpf_g79CZ6DE',
+          authDomain: 'trello-clone-af6e2.firebaseapp.com',
+          projectId: 'trello-clone-af6e2',
+          storageBucket: 'trello-clone-af6e2.appspot.com',
+          messagingSenderId: '<messagingSenderId>',
+          appId: '37325826585',
+          measurementId: '1:37325826585:web:d28ea48629960f2b3c5888'
         },
         services: {
           auth: {
